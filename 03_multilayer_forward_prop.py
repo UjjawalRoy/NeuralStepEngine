@@ -19,7 +19,7 @@ weights1 = np.array([[-1, 1.5, -0.3, 1.2],
 biases1 = np.array([3, 1, 0.5])
 
 # ============================================ LAYER 2 ==========================================================================
-# shape of the weights matrix = (4(number of neurons), 3(number of outputs per batch from previous layer)) -> no. of neurons in the next layer = 4 and shape of ouput from the previous layer = (5, 3) 
+# shape of the weights matrix = (4(number of neurons), 3(number of outputs per batch from previous layer)) -> no. of neurons in the current layer = 4 and shape of ouput from the previous layer = (5, 3) 
 weights2 = np.array([[-0.3, -1.5, 1.3],
            [0.5, 0.9, -2.3],      
            [-2.3, 0.8, -1.4],
