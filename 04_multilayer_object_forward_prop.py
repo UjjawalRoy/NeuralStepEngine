@@ -3,7 +3,7 @@ import numpy as np
 np.random.seed(0)
 
 # ============================================ INPUT ==========================================================================
-# creating an input layer with 5 inputs or batch_size=5, and each input containing 4 features
+# creating an input layer with batch_size=5, and each input containing 4 features
 # shape of which will be (5, 4)
 # input_shape = (5, 4)
 X = np.array([[1.3, 2.5, 3.6, 1],

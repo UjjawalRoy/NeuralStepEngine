@@ -1,6 +1,6 @@
 import numpy as np
 
-# creating an input layer with 4 inputs or batch_size=4, and each input containing 4 features
+# creating an input layer with batch_size=5, and each input containing 4 features
 # shape of which will be (5, 4)
 # input_shape = (5, 4)
 inputs = [[1.3, 2.5, 3.6, 1],
