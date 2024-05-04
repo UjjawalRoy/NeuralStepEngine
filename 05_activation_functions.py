@@ -1,3 +1,6 @@
+"""Read through the docstring of each class and function
+to better understand how everything is implemented"""
+
 import numpy as np
 
 np.random.seed(0)
@@ -116,3 +119,6 @@ layer2.forward(activation_sigmoid.output)
 print("Layer 2 output =======> ", layer2.output)
 activation_relu.forward(layer2.output)
 print("ReLU activated output =======> ", activation_relu.output)
+
+
+"""Softmax function has been tackled separately in the next few python files, since it is a bit more complicated than Sigmoid and ReLU"""
