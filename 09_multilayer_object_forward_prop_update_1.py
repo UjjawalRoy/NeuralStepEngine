@@ -1,4 +1,4 @@
-"""Read through the docstring of each class and function
+"""Read through the docstring of each class and method
 to better understand how everything is implemented"""
 
 import numpy as np
