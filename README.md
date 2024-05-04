@@ -9,6 +9,11 @@ The repository is organized into a series of Python scripts, each representing a
 - `02_batch_forward_prop.py`: Adding batch processing to forward propagation.
 - `03_multilayer_forward_prop.py`: Expanding to multilayer neural networks.
 - `04_multilayer_object_forward_prop.py`: Object-oriented design for multilayer neural networks.
+- `05_activation_functions.py`: Commonly used activation functions in neural networks.
+- `06_softmax_raw.py`: Softmax function implementation using raw python.
+- `07_softmax_numpy.py`: Softmax function implementation using Numpy.
+- `08_softmax_numpy_batch.py`: Adding batch processing to softmax.
+- `09_multilayer_object_forward_prop_update_1.py`: Multilayer feed forward network with activation functions.
 
 Each script builds on the previous one, showcasing a progressive approach to constructing neural networks from scratch. The project relies on numpy for efficient array operations and mathematical computations.
 
